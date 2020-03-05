@@ -1,0 +1,222 @@
+
+
+@media only screen and (max-width: 767px)  {
+  .wrapper {
+    width: 33%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    perspective: 900px;
+    min-height: 280px;
+  }
+}
+@media only screen and (min-width: 768px)  {
+  .wrapper {
+    position: relative;
+    width: 33%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    perspective: 900px;
+    min-height: 350px;
+    top: -90px;
+  }
+}
+  
+  .container {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    transition: .5s all ease;
+    transform: rotateX(20deg) scale(0.7);
+    perspective: 900px;
+    box-shadow: 0px 20px 50px rgb(145, 25, 25);
+    animation: entry 1s linear 1;
+  }
+  
+  #c0 {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #655beb 30%, #d967d3 100%);
+    z-index: 300;
+    box-shadow: 0px 5px 50px rgba(44, 1, 1, 0.644);
+  }
+  
+  #c1 {
+    background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+    box-shadow: 0px 20px 100px rgba(7, 37, 1, 0.692);
+    left: 100%;
+    z-index: 0;
+  }
+  
+  #c2 {
+    left: -100%;
+    z-index: 0;
+    background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+    box-shadow: 0px 20px 100px rgba(5, 1, 63, 0.836);
+  }
+  #c3 {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+    z-index: 300;
+    box-shadow: 0px 20px 100px rgba(32, 0, 0, 0.76);
+  }
+  
+  #c4 {
+    background: linear-gradient(to bottom, #2b2b2b 30%, #919191 100%);
+    box-shadow: 0px 20px 100px rgba(8, 1, 37, 0.76);
+    left: 100%;
+    z-index: 0;
+  }
+  
+  #c5 {
+    left: -100%;
+    z-index: 0;
+    background: linear-gradient(to bottom, #181818 30%, #999999 100%);
+    box-shadow: 0px 5px 100px rgba(48, 1, 40, 0.692);
+  }
+  
+  .container:hover {
+    cursor: pointer;
+    transform: rotate(0deg) scale(1) translateY(10px);
+    transition: .5s all ease;
+    z-index: 400;
+  }
+  @media only screen and (max-width: 767px)  {
+
+    .image {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 60%;
+      background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
+    }
+  }
+  @media only screen and (min-width: 768px)  {
+  
+    .image {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 70%;
+      background: linear-gradient(to top, #eba65b 30%, #d99267 100%);
+    }
+  }
+  
+  #i0 {
+    background-image: url("../img/aios.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  #i1{
+    background-image: url("../img/brain.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      
+  }
+  
+  #i2 {
+    background-image: url("../img/cninja.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+#i4{
+    background-image: url("../img/paint.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+  #i3 {
+    background-image: url("../img/wizard.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  #i5 {
+    background-image: url("../img/chip.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+@media only screen and (max-width: 767px)  {
+
+  .story {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(to bottom, #eba65b 0%, #d99267 40%);
+    z-index: 30;
+  }
+}
+@media only screen and (min-width: 768px)  {
+
+  .story {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(to bottom, #eba65b 0%, #d99267 40%);
+    z-index: 30;
+  }
+}
+
+  
+  #s1 {
+    background: linear-gradient(to top, #5b62a2 0%, #7b88d1 100%);
+  }
+  
+  #s2 {
+    background: linear-gradient(to top, #5b62a2 0%, #7b88d1 120%);
+  }
+  #s4 {
+    background: linear-gradient(to top, #5b62a2 0%, #7b88d1 100%);
+  }
+  
+  #s5 {
+    background: linear-gradient(to top, #63a25b 0%, #7ed17b 120%);
+  }
+  
+  .info {
+    position: absolute;
+    top: 10%;
+  }
+  
+  h3 {
+    text-align: center;
+    text-shadow: 0px 0px 2px #eee;
+    color: #eee;
+    letter-spacing: 2px;
+    font-size: 1.17em;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 20px 20px 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  /* iphone etc... */
+@media only screen and (max-width: 767px)  {
+    h3{
+        font-size: 0.8em;
+
+    }
+    p{  
+        font-size: 9px;
+    }
+}
